@@ -34,6 +34,10 @@ export default function Contato(){
                         <label htmlFor="">Endereço: </label>
                         <input type="text" />
                     </div>
+                    <div className={styles.input}>
+                        <label htmlFor="">Arquivo: </label>
+                        <input type="file" />
+                    </div>
                 <div className={styles.buttons}>
                     <div className={styles.button}>
                         <button onClick={()=>
