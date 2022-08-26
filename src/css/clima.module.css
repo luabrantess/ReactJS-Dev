@@ -152,10 +152,10 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(164,203,233,1) 
         display: none;
     }
 
-    .container{
+    .form{
         width: 600px;
     }
-    .form{
+    .container{
         width: 100%;
     }
     
@@ -166,6 +166,7 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(164,203,233,1) 
     .container{
         width: 400px;
         height: auto;
+        
     }
 
     .inputs{
@@ -173,6 +174,25 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(164,203,233,1) 
 
         flex-wrap: nowrap;
     }
+    
+}
+
+@media screen and (max-width: 750px) {
+
+    .container{
+        width: 400px;
+        
+
+        
+    }
+
+    .inputs{
+        flex-direction: column;
+
+        flex-wrap: nowrap;
+    }
+
+    
     
 }
 
